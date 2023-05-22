@@ -20,13 +20,13 @@
 		C288D2152A1BC81500232AC1 /* MoviesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C288D2142A1BC81500232AC1 /* MoviesResponse.swift */; };
 		C288D2172A1BD21600232AC1 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C288D2162A1BD21600232AC1 /* MovieService.swift */; };
 		C288D21D2A1C02D300232AC1 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C288D21C2A1C02D200232AC1 /* TabBar.swift */; };
-		C288D21F2A1C038500232AC1 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C288D21E2A1C038500232AC1 /* Tab.swift */; };
 		C288D2212A1C11EF00232AC1 /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C288D2202A1C11EF00232AC1 /* NowPlayingView.swift */; };
 		C288D2232A1C124900232AC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C288D2222A1C124900232AC1 /* ContentView.swift */; };
 		C288D2252A1C125C00232AC1 /* ComingSoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C288D2242A1C125C00232AC1 /* ComingSoonView.swift */; };
 		C288D2272A1C146400232AC1 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C288D2262A1C146400232AC1 /* AccountView.swift */; };
 		C288D22D2A1C169B00232AC1 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C288D22C2A1C169B00232AC1 /* NavigationBar.swift */; };
 		C288D22F2A1C185700232AC1 /* FeaturedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C288D22E2A1C185700232AC1 /* FeaturedItem.swift */; };
+		C288D2362A1C371600232AC1 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C288D2352A1C371600232AC1 /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,13 +64,13 @@
 		C288D2142A1BC81500232AC1 /* MoviesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesResponse.swift; sourceTree = "<group>"; };
 		C288D2162A1BD21600232AC1 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		C288D21C2A1C02D200232AC1 /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
-		C288D21E2A1C038500232AC1 /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tab.swift; path = "../../../SwiftUI+iOS+15+Assets/Xcode Project Complete/Shared/Model/Tab.swift"; sourceTree = "<group>"; };
 		C288D2202A1C11EF00232AC1 /* NowPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
 		C288D2222A1C124900232AC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C288D2242A1C125C00232AC1 /* ComingSoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonView.swift; sourceTree = "<group>"; };
 		C288D2262A1C146400232AC1 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		C288D22C2A1C169B00232AC1 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		C288D22E2A1C185700232AC1 /* FeaturedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItem.swift; sourceTree = "<group>"; };
+		C288D2352A1C371600232AC1 /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tab.swift; path = "../../../../.Trash/SwiftUI+iOS+15+Assets/Xcode Project Complete/Shared/Model/Tab.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				C288D22E2A1C185700232AC1 /* FeaturedItem.swift */,
-				C288D21E2A1C038500232AC1 /* Tab.swift */,
+				C288D2352A1C371600232AC1 /* Tab.swift */,
 				C288D2142A1BC81500232AC1 /* MoviesResponse.swift */,
 				C288D2122A1BC7EE00232AC1 /* Movie.swift */,
 			);
@@ -335,7 +335,7 @@
 				C288D1DE2A1AACAE00232AC1 /* SceneDelegate.swift in Sources */,
 				C288D2132A1BC7EE00232AC1 /* Movie.swift in Sources */,
 				C288D22F2A1C185700232AC1 /* FeaturedItem.swift in Sources */,
-				C288D21F2A1C038500232AC1 /* Tab.swift in Sources */,
+				C288D2362A1C371600232AC1 /* Tab.swift in Sources */,
 				C288D2152A1BC81500232AC1 /* MoviesResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
